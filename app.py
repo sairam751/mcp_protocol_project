@@ -24,7 +24,7 @@ async def main():
 
     # Run the query
     result = await agent.run(
-        "Find the best restaurant in San Francisco USING GOOGLE SEARCH",
+        "prodive me the alerts for California",
         max_steps=30,
     )
     print(f"\nResult: {result}")
